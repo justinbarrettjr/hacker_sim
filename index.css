@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+body {
+  font-family: "Cantarell", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: url(https://bushizhu.com/wp-content/uploads/2022/01/707aa7a63e91-scaled.webp);
+  background-size: cover;
+  background-position: center;
+  font-size: 0.6rem;
+  overflow: hidden;
+}
+
+.window {
+  background: #111c;
+  border: 1px solid #23252e;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  box-shadow: 0 0 3px black;
+  text-align: center;
+}
+.window .header {
+  padding: 5px;
+  background: #23252e;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  user-select: none;
+}
+.window .header img {
+  height: 15px;
+}
+.window .header div {
+  display: inline-block;
+  width: 70px;
+  min-height: 1px;
+}
+.window .header .left {
+  float: left;
+  text-align: left;
+}
+.window .header .right {
+  float: right;
+  text-align: right;
+}
+.window .header button {
+  border: 0;
+  background: #383d4b;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  line-height: 12px;
+  margin-left: 5px;
+  border: 1px solid black;
+  color: transparent;
+  font-size: 0.5rem;
+  text-align: center;
+}
+.window .header button.blue {
+  background: #3c83fb;
+  color: black;
+}
+.window .header button:hover {
+  color: white;
+}
+.window iframe {
+  border: 0;
+}
+.window .content {
+  padding: 5px;
+}
+
+/*# sourceMappingURL=index.css.map */
